@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #f1f5f9;
+  color: #0f172a;
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 500px;
+}
+
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+}
+
+
+button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 12px;
+  background: #f8fafc;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.task:hover {
+  background: #e2e8f0;
+}
+
+
+.completed {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.delete {
+  color: #ef4444;
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: #dc2626;
+}
+
+.empty {
+  text-align: center;
+  margin-top: 20px;
+  color: #64748b;
+}
