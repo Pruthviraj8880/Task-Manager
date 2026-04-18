@@ -2,7 +2,7 @@ import TaskItem from "./TaskItem";
 
 function TaskList({ tasks, setTasks }) {
   return (
-    <div className="mt-4">
+    <div>
       {tasks.map(task => (
         <TaskItem key={task.id} task={task} setTasks={setTasks} />
       ))}

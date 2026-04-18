@@ -103,3 +103,11 @@ button:hover {
   margin-top: 20px;
   color: #64748b;
 }
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+.line-through {
+  text-decoration: line-through;
+  color: gray;
+}

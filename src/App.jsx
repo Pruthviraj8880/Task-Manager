@@ -13,8 +13,8 @@ useEffect(() => {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 }, [tasks]);
   return (
-    <div className="p-5 max-w-xl mx-auto">
-      <h1 className="text-2xl font-bold">Task Manager</h1>
+    <div className="">
+      <h1 className="">Task Manager</h1>
       <TaskForm setTasks={setTasks} />
       <TaskList tasks={tasks} setTasks={setTasks} />
     </div>
